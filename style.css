@@ -4,6 +4,7 @@ body {
   color: seashell;
   font-family: Helvetica;
   font-size: 22px;
+  text-align: center;
 }
 
 /* header */
@@ -55,10 +56,16 @@ span.nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
   
 }
 
 /* Mission Statement + Banners */
+.mission-flex {
+  display: flex;
+  justify-content: center;
+}
+
 .mission {
   display: flex;
   align-items: center;
@@ -109,6 +116,7 @@ span.nav {
 
 .products {
   padding: 15px;
+  
 }
 
 .products span {
@@ -120,6 +128,31 @@ span.nav {
 .products img {
   width: 300px;
   height: 200px;
+  margin-bottom: 10px;
 }
 
+/* Location */
+.location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding-top: 70px;
+}
+
+.location-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.local {
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
