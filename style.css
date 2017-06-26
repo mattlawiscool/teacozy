@@ -1,0 +1,125 @@
+/* General formatting */
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+
+/* header */
+header {
+  display: flex;
+  background-color: black;
+  height: 75px;
+  width: 100%;
+  align-items: center;
+  font-size: 22px;
+  color: seashell;
+  font-family: Helvetica;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+img {
+  width: 150px;
+}
+
+a:link {
+  color: seashell;
+}
+
+a:visited {
+  color: seashell;
+}
+
+.hnav {
+  color: seashell;
+  padding-right: 20px;
+}
+
+span.nav {
+  margin-right: 25px;
+  text-align: right;
+}
+
+/* Content */
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+/* Mission Statement + Banners */
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  text-align: center;
+  width: 1000px;
+  height: 700px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#ourmission {
+  background-color: black;
+  width: 100%;
+  margin: 0px;
+  padding: 10px 0px 20px 0;
+}
+
+#missionbrief {
+  background-color: black;
+  width: 100%;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+/* Tea of the Month */
+
+.tom {
+  display: block;
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+  
+}
+
+.tomstatement {
+  text-align: center;
+}
+
+.flex-products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.products {
+  padding: 15px;
+}
+
+.products span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.products img {
+  width: 300px;
+  height: 200px;
+}
+
+
